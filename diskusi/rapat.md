@@ -33,10 +33,9 @@
       </video>
    - Memulai perancangan Pemilah sampah secara umum menggunakan Computer Vision
 
-     `<video width="320" controls>`
-     `<source src="./img/percobaan-computer-vision.mp4" type="video/mp4">`
-
-     </video>
+     <video width="320" controls>
+         <source src="./img/percobaan-computer-vision.mp4" type="video/mp4">
+      </video>
 4. **Daur Ulang atau Pengolahan**
 
    - Botol Plastik
@@ -68,7 +67,6 @@
    <img src="./img/IMG20251018093401_720p.jpg" alt="Gambar contoh" width="300">
    <img src="./img/IMG20251018093410_720p.jpg" alt="Gambar contoh" width="300">
    <img src="./img/IMG20251018093419_720p.jpg" alt="Gambar contoh" width="300">
-
 7. **Ruang Simulasi Iklim**
 
    - Mahasiswa yang mencatat / mengambil data dapat mempengaruhi fokus orang yang sedang melakukan simulasi
@@ -90,3 +88,8 @@
    - Pembuatan Simulasi Suara agar simulasi lebih nyata.
    - Alat berbasis Portable, guna mempermudah penyesuaian dari keinginan pengguna sistem.
    - Pembuatan Server Lokal guna memudahkan pengelolaan dan akses Data.
+
+## Note
+
+- Pemilah Sampah, sift pagi jam 13:00, sift siang jam 20:00
+- Pembakaran,
