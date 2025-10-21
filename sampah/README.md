@@ -16,5 +16,5 @@
 
 ### Kalkulator Eco-Enzyme
 
-<iframe src="./eco-enzyme.html" width="420" height="350" style="border:none; border-radius:12px;"></iframe>
+<iframe src="eco-enzyme.html" width="420" height="350" style="border:none; border-radius:12px;"></iframe>
 
