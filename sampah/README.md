@@ -14,39 +14,7 @@
 | 2  | Bahan Baku | 30%    |
 | 3  | Gula Merah | 10%    |
 
-<!-- Eco-Enzyme Calculator (Markdown compatible) -->
-<div id="eco-enzyme-calculator" style="max-width:400px; margin:auto; font-family:Arial, sans-serif; background:#f8f9fa; padding:15px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
-  <h3 style="text-align:center; color:#2c3e50;">Kalkulator Eco-Enzyme</h3>
-  <p style="text-align:center; font-size:14px;">Masukkan total campuran (gram):</p>
+### Kalkulator Eco-Enzyme
 
-  <input id="totalWeight" type="number" placeholder="Masukkan total gram" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:8px; margin-bottom:10px;">
-
-  <button id="calculate" style="width:100%; background:#27ae60; color:white; border:none; padding:10px; border-radius:8px; cursor:pointer;">Hitung</button>
-
-  <div id="result" style="margin-top:15px; font-size:15px; color:#2c3e50;">
-    <p>Air: -</p>
-    <p>Bahan Baku: -</p>
-    <p>Gula Merah: -</p>
-  </div>
-</div>
-
-<script>
-  document.getElementById('calculate').addEventListener('click', function() {
-    const total = parseFloat(document.getElementById('totalWeight').value);
-    if (isNaN(total) || total <= 0) {
-      alert('Masukkan total gram yang valid!');
-      return;
-    }
-
-    const air = total * 0.6;
-    const bahanBaku = total * 0.3;
-    const gulaMerah = total * 0.1;
-
-    document.getElementById('result').innerHTML = `
-      <p>💧 Air: <b>${air.toFixed(2)} g</b></p>
-      <p>🍂 Bahan Baku: <b>${bahanBaku.toFixed(2)} g</b></p>
-      <p>🍯 Gula Merah: <b>${gulaMerah.toFixed(2)} g</b></p>
-    `;
-  });
-</script>
+<iframe src="./eco-enzyme.html" width="420" height="350" style="border:none; border-radius:12px;"></iframe>
 
