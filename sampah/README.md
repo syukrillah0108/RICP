@@ -17,3 +17,7 @@
 ### Kalkulator
 
 [![Kalkulator](https://img.shields.io/badge/Kalkulator-Takaran-blue)](https://syukrillah0108.github.io/eco-enzym/)
+
+### Proses Pembuatan
+
+![](./img/eco-enzyme.svg)
