@@ -14,5 +14,6 @@
 | 2  | Bahan Baku | 30%    |
 | 3  | Gula Merah | 10%    |
 
+### Kalkulator
 
-
+[![Kalkulator](https://img.shields.io/badge/Kalkulator-Takaran-blue)](https://syukrillah0108.github.io/eco-enzym/)
