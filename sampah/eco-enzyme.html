@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kalkulator Eco-Enzyme</title>
+<title>Kalkulator Eco-Enzyme & Kompos | RICP - UTB</title>
 <style>
   body {
     background: linear-gradient(135deg, #d4fc79, #96e6a1);
@@ -15,19 +15,69 @@
     margin: 0;
   }
 
-  #eco-enzyme-calculator {
-    width: 90%;
-    max-width: 420px;
+  .container {
+    width: 95%;
+    max-width: 900px;
     background: #ffffff;
     padding: 25px 30px;
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   }
 
+  .title-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title-logo img {
+    width: 70px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #27ae60;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .tab.inactive {
+    background: #bdc3c7;
+  }
+
+  .calculator {
+    display: none;
+  }
+
+  .calculator.active {
+    display: block;
+  }
+
   h3 {
     text-align: center;
     color: #2c3e50;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .guide-image {
+    display: block;
+    margin: 10px auto 20px auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
 
   label {
@@ -53,7 +103,7 @@
     box-shadow: 0 0 4px rgba(39,174,96,0.4);
   }
 
-  button {
+  button.calculate {
     width: 100%;
     padding: 10px;
     background: #27ae60;
@@ -66,11 +116,11 @@
     transition: background 0.3s;
   }
 
-  button:hover {
+  button.calculate:hover {
     background: #219150;
   }
 
-  #result {
+  #resultEE, #resultKompos {
     margin-top: 20px;
     background: #f8f9fa;
     border-radius: 10px;
@@ -78,16 +128,12 @@
     border: 1px solid #e0e0e0;
   }
 
-  #result p {
+  #resultEE p, #resultKompos p {
     font-size: 15px;
     color: #2c3e50;
     margin: 8px 0;
     display: flex;
     justify-content: space-between;
-  }
-
-  #result b {
-    color: #27ae60;
   }
 
   footer {
@@ -100,45 +146,122 @@
 </head>
 <body>
 
-<div id="eco-enzyme-calculator">
-  <h3>🧪 Kalkulator Eco-Enzyme</h3>
-  
-  <label for="bahanBaku">Masukkan berat bahan baku (gram):</label>
-  <input id="bahanBaku" type="number" placeholder="Contoh: 100">
-  
-  <button id="calculate">Hitung</button>
-  
-  <div id="result">
-    <p>💧 Air: <b>-</b></p>
-    <p>🍂 Bahan Baku: <b>-</b></p>
-    <p>🍯 Gula Merah: <b>-</b></p>
-    <hr>
-    <p><b>🔹 Total Campuran:</b> <b>-</b></p>
+<div class="container">
+  <div class="title-logo">
+    <img src="./img/utb_kotak.png" alt="Logo UTB">
+    <h3>🧮 Kalkulator Eco-Enzyme & Kompos | RICP - UTB</h3>
   </div>
-  
-  <footer>Rasio 10 : 3 : 1 (Air : Bahan Baku : Gula Merah)</footer>
+
+  <div class="tabs">
+    <button class="tab active" id="tabEE">Eco-Enzyme</button>
+    <button class="tab inactive" id="tabKompos">Kompos</button>
+  </div>
+
+  <!-- Kalkulator Eco-Enzyme -->
+  <div class="calculator active" id="ecoEnzymeCalc">
+    <h3>🧪 Kalkulator Eco-Enzyme</h3>
+    <img src="./img/eco-enzyme.svg" alt="Proses Eco Enzyme" class="guide-image">
+    <label for="bahanBakuEE">Masukkan berat bahan baku (gram):</label>
+    <input id="bahanBakuEE" type="number" placeholder="Contoh: 100">
+    <button class="calculate" id="calculateEE">Hitung</button>
+
+    <div id="resultEE">
+      <p>💧 Air: <b>-</b></p>
+      <p>🍂 Bahan Baku: <b>-</b></p>
+      <p>🍯 Gula Merah: <b>-</b></p>
+      <hr>
+      <p><b>🔹 Total Campuran:</b> <b>-</b></p>
+    </div>
+
+    <footer>Rasio 10 : 3 : 1 (Air : Bahan Baku : Gula Merah)</footer>
+  </div>
+
+  <!-- Kalkulator Kompos -->
+  <div class="calculator" id="komposCalc">
+    <h3>🌱 Kalkulator Kompos (Larutan Aktivator)</h3>
+    <img src="./img/kompos.svg" alt="Proses Pembuatan Kompos" class="guide-image">
+    <label for="airKompos">Masukkan jumlah air (gram/ml):</label>
+    <input id="airKompos" type="number" placeholder="Contoh: 1000">
+    <button class="calculate" id="calculateKompos">Hitung</button>
+
+    <div id="resultKompos">
+      <p>🧫 EM4: <b>-</b></p>
+      <p>🍯 Gula Merah: <b>-</b></p>
+      <p>💧 Air: <b>-</b></p>
+      <hr>
+      <p><b>🔹 Total Larutan Aktivator:</b> <b>-</b></p>
+    </div>
+
+    <footer>Rasio 80% : 10% : 10% (Air : EM4 : Gula Merah)</footer>
+  </div>
 </div>
 
 <script>
-document.getElementById('calculate').addEventListener('click', function() {
-  const bahanBaku = parseFloat(document.getElementById('bahanBaku').value);
-  if (isNaN(bahanBaku) || bahanBaku <= 0) {
-    alert('Masukkan berat bahan baku yang valid!');
-    return;
-  }
+  // Tab Switching
+  const tabEE = document.getElementById('tabEE');
+  const tabKompos = document.getElementById('tabKompos');
+  const ecoCalc = document.getElementById('ecoEnzymeCalc');
+  const komposCalc = document.getElementById('komposCalc');
 
-  const air = (10/3) * bahanBaku;
-  const gulaMerah = (1/3) * bahanBaku;
-  const total = air + bahanBaku + gulaMerah;
+  tabEE.addEventListener('click', () => {
+    tabEE.classList.add('active');
+    tabKompos.classList.remove('active');
+    tabKompos.classList.add('inactive');
+    tabEE.classList.remove('inactive');
+    ecoCalc.classList.add('active');
+    komposCalc.classList.remove('active');
+  });
 
-  document.getElementById('result').innerHTML = `
-    <p>💧 Air: <b>${air.toFixed(2)} g</b></p>
-    <p>🍂 Bahan Baku: <b>${bahanBaku.toFixed(2)} g</b></p>
-    <p>🍯 Gula Merah: <b>${gulaMerah.toFixed(2)} g</b></p>
-    <hr>
-    <p><b>🔹 Total Campuran:</b> <b>${total.toFixed(2)} g</b></p>
-  `;
-});
+  tabKompos.addEventListener('click', () => {
+    tabKompos.classList.add('active');
+    tabEE.classList.remove('active');
+    tabEE.classList.add('inactive');
+    tabKompos.classList.remove('inactive');
+    komposCalc.classList.add('active');
+    ecoCalc.classList.remove('active');
+  });
+
+  // Kalkulator Eco-Enzyme
+  document.getElementById('calculateEE').addEventListener('click', function() {
+    const bahanBaku = parseFloat(document.getElementById('bahanBakuEE').value);
+    if (isNaN(bahanBaku) || bahanBaku <= 0) {
+      alert('Masukkan berat bahan baku yang valid!');
+      return;
+    }
+
+    const air = (10/3) * bahanBaku;
+    const gulaMerah = (1/3) * bahanBaku;
+    const total = air + bahanBaku + gulaMerah;
+
+    document.getElementById('resultEE').innerHTML = `
+      <p>💧 Air: <b>${air.toFixed(2)} g</b></p>
+      <p>🍂 Bahan Baku: <b>${bahanBaku.toFixed(2)} g</b></p>
+      <p>🍯 Gula Merah: <b>${gulaMerah.toFixed(2)} g</b></p>
+      <hr>
+      <p><b>🔹 Total Campuran:</b> <b>${total.toFixed(2)} g</b></p>
+    `;
+  });
+
+  // Kalkulator Kompos (berdasarkan jumlah air)
+  document.getElementById('calculateKompos').addEventListener('click', function() {
+    const air = parseFloat(document.getElementById('airKompos').value);
+    if (isNaN(air) || air <= 0) {
+      alert('Masukkan jumlah air yang valid!');
+      return;
+    }
+
+    const em4 = air * (10 / 80);
+    const gula = air * (10 / 80);
+    const total = air + em4 + gula;
+
+    document.getElementById('resultKompos').innerHTML = `
+      <p>🧫 EM4: <b>${em4.toFixed(2)} g</b></p>
+      <p>🍯 Gula Merah: <b>${gula.toFixed(2)} g</b></p>
+      <p>💧 Air: <b>${air.toFixed(2)} g</b></p>
+      <hr>
+      <p><b>🔹 Total Larutan Aktivator:</b> <b>${total.toFixed(2)} g</b></p>
+    `;
+  });
 </script>
 
 </body>
