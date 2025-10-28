@@ -1,51 +1,56 @@
-# Inovasi untuk Disabilitas
+![Disabilitas](./img/disabilitas.svg)
 
-<img src="./img/note.jpeg" alt="Gambar contoh" width="720">
+## 1. Disabilitas Fisik (mobilitas terbatas)
 
-### 💪 1. Disabilitas Fisik
+* **Walker / kursi roda pintar (Smart wheelchair)**
+  * Fitur: kontrol joystick + mode otomatis (hindari rintangan) pakai LIDAR atau ultrasonic, integrasi smartphone, navigasi indoor (BLE beacons).
+* **Sistem asistif rumah (Home automation for mobility)**
+  * Fitur: kontrol lampu/pintu/AC lewat tombol besar, voice control, atau app dengan satu klik; integrasi rel kursi di rumah.
+* **Prostetik terjangkau dengan sensor (Low-cost myoelectric prosthesis)**
+  * Fitur: sensor EMG sederhana, kontrol gerakan dasar.
 
-**Masalah:** Mobilitas terbatas (amputasi, lumpuh, stroke, dsb).
+## 2. Disabilitas Netra / Buta (sensorik)
 
-**Inovasi yang bisa dikembangkan:**
+* **Aplikasi pembaca teks & objek (OCR + Object Recognition)**
+  * Fitur: ambil foto -> baca teks (OCR), deteksi objek/detikasi rintangan -> suara atau getar.
+* **Tongkat pintar (Smart cane)**
+  * Fitur: deteksi rintangan depan/samping, navigasi getar berdasarkan arah tujuan, integrasi peta offline.
+* **Sistem penunjuk lokasi indoor (Beacon + audio cues)**
+  * Fitur: BLE beacons di ruangan kampus; user app memberi petunjuk audio saat dekat tujuan.
 
-* **Kursi roda pintar (smart wheelchair)** berbasis sensor ultrasonik dan kontrol suara.
-* **Prostetik adaptif** dengan kontrol otot (EMG sensor).
-* **Aplikasi pengingat terapi fisik** dengan panduan latihan interaktif.
+## 3. Disabilitas Rungu / Wicara
 
----
+* **Real-time captioning / speech-to-text lokal**
+  * Fitur: transkripsi suara jadi teks pada layar (kelas, rapat), penyimpanan transkrip.
+* **Penerjemah bahasa isyarat (Sign-to-text / Sign-to-speech)**
+  * Fitur: kamera menangkap gerakan tangan -> menerjemahkan ke teks/suara; atau sarung tangan sensor untuk gerakan dasar.
+* **Sistem panggilan darurat visual/vibrasi**
+  * Fitur: alarm rumah mengubah suara menjadi lampu berkedip atau notifikasi pada smartwatch.
 
-### 👁️👂 2. Disabilitas Sensorik (Netra/Buta & Rungu/Wicara)
+## 4. Disabilitas Mental / Jiwa (psikososial)
 
-**Masalah:** Kesulitan berinteraksi dengan lingkungan atau komunikasi.
+* **Aplikasi dukungan kesehatan mental & monitoring**
+  * Fitur: mood tracker sederhana, modul pernapasan, pengingat minum obat, sesi micro-CBT, koneksi ke konselor.
+* **Wearable untuk deteksi krisis emosional**
+  * Fitur: deteksi perubahan HR/skin conductance -> notifikasi ke caregiver atau mode intervensi (audio/guide).
+  * Teknologi: smartwatch/fitband + analytics sederhana.
+* **Virtual safe spaces / peer-support platform**
+  * Fitur: forum moderasi, resources lokal, jadwal terapi.
 
-**Inovasi:**
+## 5. Disabilitas Intelektual & Ganda
 
-* **Kacamata pintar untuk tunanetra** dengan sensor jarak dan deteksi objek berbasis AI.
-* **Aplikasi penerjemah bahasa isyarat ke teks/suara (dan sebaliknya)** .
-* **Navigasi indoor berbasis suara dan GPS lokal** untuk tunanetra di gedung kampus.
+* **Aplikasi pembelajaran adaptif & visual schedule**
+  * Fitur: antarmuka visual, langkah-langkah terstruktur, penguatan lewat game sederhana.
+* **Sistem Augmentative and Alternative Communication (AAC)**
+  * Fitur: papan komunikasi gambar -> suara, kustom vocabulary per user.
+* **Platform manajemen caregiving**
+  * Fitur: jadwal, catatan perkembangan, shared notes untuk sekolah/terapis/caregiver.
 
----
+## 6. Solusi lintas-disabilitas (berguna untuk banyak tipe)
 
-### 🧠 3. Disabilitas Mental / Jiwa
-
-**Masalah:** Gangguan fokus, emosi, atau komunikasi sosial.
-
-**Inovasi:**
-
-* **Aplikasi pemantau kesehatan mental** dengan mood tracker dan rekomendasi aktivitas.
-* **Game edukatif berbasis terapi perilaku** untuk anak autis atau ADHD.
-* **Wearable sensor** untuk mendeteksi stres atau kecemasan (berdasarkan detak jantung & suhu kulit).
-
----
-
-### 🧩 4. Disabilitas Intelektual dan Ganda
-
-**Masalah:** Keterlambatan belajar, kesulitan memahami informasi kompleks.
-
-**Inovasi:**
-
-* **Platform pembelajaran adaptif** dengan tampilan sederhana dan interaktif.
-* **Asisten belajar berbasis AI** yang bisa membaca teks dan menjelaskan dengan suara.
-* **Smart toy edukatif** yang membantu stimulasi kognitif anak disabilitas ganda.
-
----
+* **Aplikasi peta aksesibilitas kampus**
+  * Fitur: tanda lokasi ramp, lift, toilet aksesibel, rute mudah. Community-sourced.
+* **Toolkit pemeriksaan aksesibilitas otomatis**
+  * Fitur: scan halaman web/app dan berikan rekomendasi WCAG sederhana & prioritas perbaikan.
+* **Platform pelibatan & co-design**
+  * Fitur: alat sederhana untuk meminta feedback dari penyandang disabilitas, prototype tests, dan pengumpulan kebutuhan.
