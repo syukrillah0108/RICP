@@ -1,13 +1,17 @@
 ![Disabilitas](./img/disabilitas.svg)
 
-## 1. Disabilitas Fisik (mobilitas terbatas)
+# Alur
 
-## 2. Disabilitas Netra / Buta (sensorik)
+Pendfataran
 
-## 3. Disabilitas Rungu / Wicara
+Wawancara - List pertanyaan sudah di siapakkan
 
-## 4. Disabilitas Mental / Jiwa (psikososial)
+Meja Assenment untuk mendapatkan bukti Surat Keterangan dari Tenaga Ahli/medis
 
-## 5. Disabilitas Intelektual & Ganda
+# User
 
-## 6. Solusi lintas-disabilitas (berguna untuk banyak tipe)
+- Kecamatan/Kabupaten - sebagai penginputan Data untuk assesment
+- Tenaga Ahli/Medis - Sebagai Assesment
+- Master Admin - Kelola Sistem
+- Pemerintah - Pemberian layanan,
+- Organisasi
