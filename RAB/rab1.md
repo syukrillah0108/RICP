@@ -8,15 +8,14 @@ Proyek Energy Green House adalah sistem rumah tanaman yang memanfaatkan energi t
 
 | No | Uraian                      | Jumlah | Satuan | Harga Satuan (Rp) | Total (Rp) |
 | -- | --------------------------- | ------ | ------ | ----------------- | ---------- |
-| 1  | Panel Surya 150W            | 1      | Unit   | 650.000           | 650.000    |
+| 1  | Panel Surya 150W            | 1      | Unit   | 550.000           | 550.000    |
 | 2  | Solar Charge Controller 30A | 1      | Unit   | 90.000            | 90.000     |
 | 3  | Aki 12V 20Ah                | 1      | Unit   | 250.000           | 250.000    |
-| 4  | Pompa Air 12V               | 1      | Unit   | 70.000            | 70.000     |
 | 5  | LED HPL 1W                  | 2      | Unit   | 3.000             | 6.000      |
 | 6  | LED HPL 3W                  | 2      | Unit   | 5.000             | 10.000     |
 | 7  | Kabel Instalasi             | 1      | Paket  | 50.000            | 50.000     |
 
-#### **Total: Rp 1.126.000**
+#### **Total: Rp 956.000**
 
 ## Tabel RAB 2
 
