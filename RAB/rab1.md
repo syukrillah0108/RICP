@@ -17,6 +17,18 @@ Proyek Energy Green House adalah sistem rumah tanaman yang memanfaatkan energi t
 
 #### **Total: Rp 956.000**
 
+## **Tabel RAB (Tanpa Panel Surya)**
+
+| No | Uraian                      | Jumlah | Satuan | Harga Satuan (Rp) | Total (Rp) |
+| -- | --------------------------- | ------ | ------ | ----------------- | ---------- |
+| 1  | Solar Charge Controller 30A | 1      | Unit   | 90.000            | 90.000     |
+| 2  | Aki 12V 20Ah                | 1      | Unit   | 250.000           | 250.000    |
+| 3  | LED HPL 1W                  | 2      | Unit   | 3.000             | 6.000      |
+| 4  | LED HPL 3W                  | 2      | Unit   | 5.000             | 10.000     |
+| 5  | Kabel Instalasi             | 1      | Paket  | 50.000            | 50.000     |
+
+#### Total: Rp 406.000
+
 ---
 
 # **2. RAB Hidroponik Botol Bekas**
