@@ -4,7 +4,7 @@
 
 Proyek Energy Green House adalah sistem rumah tanaman yang memanfaatkan energi terbarukan (panel surya) untuk menghidupkan exhaust fan, pompa air, dan sensor otomatis. Sistem ini dirancang agar hemat energi, ramah lingkungan, serta dapat beroperasi tanpa listrik PLN.
 
-## **Tabel RAB 1**
+## **Tabel RAB**
 
 | No | Uraian                      | Jumlah | Satuan | Harga Satuan (Rp) | Total (Rp) |
 | -- | --------------------------- | ------ | ------ | ----------------- | ---------- |
@@ -16,18 +16,6 @@ Proyek Energy Green House adalah sistem rumah tanaman yang memanfaatkan energi t
 | 7  | Kabel Instalasi             | 1      | Paket  | 50.000            | 50.000     |
 
 #### **Total: Rp 956.000**
-
-## Tabel RAB 2
-
-| No | Uraian                      | Jumlah | Satuan | Harga Satuan (Rp) | Total (Rp) |
-| -- | --------------------------- | ------ | ------ | ----------------- | ---------- |
-| 1  | Aki 12V 20Ah                | 1      | Unit   | 250.000           | 250.000    |
-| 2  | Solar Charge Controller 30A | 1      | Unit   | 90.000            | 90.000     |
-| 3  | LED HPL 1W                  | 2      | Unit   | 3.000             | 6.000      |
-| 4  | LED HPL 3W                  | 2      | Unit   | 5.000             | 10.000     |
-| 5  | Kabel Instalasi             | 1      | Paket  | 50.000            | 50.000     |
-
-#### Total Biaya: Rp 406.000
 
 ---
 
