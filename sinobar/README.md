@@ -1,5 +1,6 @@
 ### 1. TIMBANGAN BERBASIS IOT
-[Docs](./docs/1.%20270-File%20Utama%20Naskah-827-1-10-20231230-1.pdf)
+
+[🖹 Docs](./docs/1.%20270-File%20Utama%20Naskah-827-1-10-20231230-1.pdf)
 
 * Tema
 * Judul ID
